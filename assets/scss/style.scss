@@ -1,0 +1,43 @@
+$rojo: #E2061A;
+$gris: #f2f2f2;
+$gris2: #9F9F9F;
+$vinotinto: #B80000;
+
+@import "layout/header";
+@import "layout/footer";
+@import "index/info";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before
+{
+    background-color: red;
+    content: "";
+    width: 25%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    // left: 0;
+
+}
+
+a { text-decoration: none; }
+input { outline: none; }
+textarea { outline: none; }
+li { list-style: none; }

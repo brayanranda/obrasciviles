@@ -1,0 +1,157 @@
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em 0;
+  width: 85%;
+}
+
+.header__fig {
+  width: 130px;
+}
+
+.header__picture {
+  width: 100%;
+}
+
+.header__menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.header__item--a {
+  color: white;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em 0;
+  width: 85%;
+}
+
+.footer__text {
+  color: #E2061A;
+}
+
+.footer__text--bold {
+  color: #E2061A;
+  font-weight: bold;
+}
+
+.inicio {
+  position: relative;
+  width: 100%;
+}
+
+.inicio__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.inicio__text {
+  width: 60%;
+}
+
+.inicio__text--msj {
+  font-size: 45px;
+  line-height: 40px;
+}
+
+.inicio__text--descripcion {
+  font-size: 18px;
+  padding-top: 1em;
+  text-align: justify;
+  width: 80%;
+}
+
+.inicio__boton {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  width: 280px;
+}
+
+.inicio__boton--login {
+  border: 1.5px solid #E2061A;
+  background-color: #E2061A;
+  border-radius: 6px;
+  color: white;
+  padding: .5em 1.5em;
+}
+
+.inicio__boton--registro {
+  border: 1.5px solid #9F9F9F;
+  border-radius: 6px;
+  color: #797979;
+  padding: .5em 1.5em;
+}
+
+.inicio__fig {
+  height: 350px;
+  overflow: hidden;
+  width: 35%;
+}
+
+.inicio__picture {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body::before {
+  background-color: red;
+  content: "";
+  width: 25%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
